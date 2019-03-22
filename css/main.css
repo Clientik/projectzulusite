@@ -1,0 +1,662 @@
+body {
+    background: #000 url(../img/middle.jpg) top center repeat-y;
+    /* color: #982929; */
+    font-family:WarfaceRegularEnglish;
+}
+.footer {
+    background: #000;
+    height: 225px;
+    text-align: center;
+    padding: 50px;
+}
+.copyright{
+	color:#ffffff;
+}
+.fixmenu {
+    height: 47px;
+    width: 100%;
+    background: #121415;
+    position: fixed;
+    left: 0;
+    top: 0;
+    text-align: center;
+    z-index: 15;
+    font: normal 14px/47px WarfaceRegularEnglish;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+    box-sizing: border-box;
+}
+.fixmenu .link {
+    display: inline-block;
+    font: normal 14px/47px WarfaceRegularEnglish;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 0 10px;
+	-webkit-transition: opacity 2s;
+}
+.fixmenu .list_menu {
+    display: inline-block;
+    padding: 0 25px;
+}
+.fixmenu a {
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0 5px;
+}
+.level1 {
+    background: url(../img/background.png) no-repeat 50% 0;
+    height: 716px;
+}
+.level1_1 {
+    background: url(../img/background65.png) no-repeat 50% 0;
+    height: 716px;
+}
+.level2_2 {
+    background: url(../img/background66.png) no-repeat 50% 0;
+    height: 716px;
+}
+.level3_1 {
+    background: url(../img/background685.png) no-repeat 50% 0;
+    height: 716px;
+}
+.level2 {
+    background: url(../img/background1.png) no-repeat 50% 0;
+    height: 1225px;
+    background-size: contain;
+}
+.level5 {
+    background: url(../img/Prototype.png) no-repeat 50% 0;
+    height: 716px;
+}
+.logo_zulu {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding-top: 55px;
+    z-index: 3;
+    text-align: center;
+}
+.btn_1 {
+    background: #e7701d;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0 95px;
+    line-height: 40px;
+    height: 41px;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition: all .15s linear;
+    transition: all .15s linear;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    margin: 43px;
+    user-select: none;
+    font-family: WarfaceRegularEnglish;
+    font-size: 24px;
+}
+.btn_2 {
+    background: #e7701d;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0 12%;
+    line-height: 40px;
+    height: 41px;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition: all .15s linear;
+    transition: all .15s linear;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    margin: 43px;
+    user-select: none;
+    font-family: WarfaceRegularEnglish;
+    font-size: 24px;
+}
+.logo_zulu_1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding-top: 184px;
+    z-index: 3;
+    text-align: center;
+}
+.logo_zulu_1 .logo_text {
+    font: normal 33px/20px WarfaceRegularEnglish;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.logo_zulu .logo_text {
+    font: normal 33px/20px WarfaceRegularEnglish;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.logo_zulu_1 .notice {
+    width: 500px;
+    max-width: 80%;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: -5px;
+    margin-left: auto;
+    color: #cacaca;
+    padding: 12px;
+    font-size: 12pt;
+    background: url(../img/bg1.png) repeat top left scroll;
+	border: 3px solid rgb(231, 112, 29);
+}
+.notice p {
+    color: #ffffff;
+}
+	.logo_zulu .logo {
+    width: 300px;
+    height: 340px;
+    margin: 0 auto -30px auto;
+    background: url(../img/logo.png) no-repeat 0 0;
+	}
+	.wrapper {
+    width: 990px;
+    position: relative;
+    margin: -64px auto;
+	border: 3px solid #fff;
+}
+.wrapper_1 {
+    width: 990px;
+    position: relative;
+    margin: -64px auto;
+}
+.wrapper_1 h4 {
+   color:#ffffff;
+}
+.logo_zulu .l
+.logo_zulu .logo_text {
+    font: normal 33px/20px WarfaceRegularEnglish;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.logo_zulu .button {
+    width: 180px;
+    height: 48px;
+    margin: 0 auto;
+    font: normal 24px/48px WarfaceRegularEnglish;
+}
+.logo_zulu .logo_text h5 {
+    font: normal 25px/74px WarfaceRegularEnglish;
+    margin-bottom: 10px;
+}
+.logo_zulu .logo_text h3 {
+    font: normal 25px/4px WarfaceRegularEnglish;
+    margin-bottom: 10px;
+}
+.logo_zulu .logo_text .priz {
+    font: normal 54px/62px WarfaceRegularEnglish;
+    margin-bottom: 10px;
+}
+.btn:hover {
+  background:#848075;
+  color:#red;
+}
+.btn_1:hover {
+  background:#848075;
+  color:#red;
+}
+.cart__table {
+    border-spacing: 3px 0;
+    border-collapse: separate;
+    background: none;
+	color:#ffffff;
+	margin: auto;
+}
+.cart__table tr:nth-child(2n) td {
+    background: rgba(88,88,88,.3);
+}
+table td, body table th {
+    border: 1px solid #e7701d;
+    padding: 10px;
+    vertical-align: middle;
+	color:white;
+}
+.btn {
+    background: #83c2c4;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0 15px;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition: all .15s linear;
+    transition: all .15s linear;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: WarfaceRegularEnglish;
+    font-size: 24px;
+}
+h4 {
+    font: normal 35px/42px WarfaceRegularEnglish;
+    color: #83c2c4;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 40px 0 0 0;
+}
+.container {
+    min-height: 100%;
+    max-width: 1241px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 5px;
+    position: relative;
+    z-index: 10;
+}
+section ul {
+    text-align: left;
+    width: 500px;
+    max-width: 80%;
+    margin: 0 auto;
+    list-style: disc inside;
+}
+section ul li {
+    color: #ffffff;
+    padding: 8px 0;
+    font-size: 20px;
+}
+.logo img {
+        margin-left: 34%;
+}
+section .notice {
+    text-align: left;
+    width: 500px;
+    max-width: 80%;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: -5px;
+    margin-left: auto;
+    color: #cacaca;
+    padding: 12px;
+    font-family: 'Neusa-DemiBold';
+    font-size: 12pt;
+    background: url(../img/bg1.png) repeat top left scroll;
+}
+section .preorder_button {
+    margin-top: 23px;
+    margin-left: 28px;
+    margin-right: 28px;
+}
+section .preoder_gift {
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 500px;
+    max-width: 80%;
+    color: #9a8866;
+    text-align: right;
+    margin-top: 20px;
+}
+section .button {
+    background: #83c2c4;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0 15px;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition: all .15s linear;
+    transition: all .15s linear;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: WarfaceRegularEnglish;
+    font-size: 24px;
+}
+section .preorder_button .button {
+    width: 180px;
+    height: 48px;
+    margin: 0 auto;
+    font: normal 24px/48px WarfaceRegularEnglish;
+}
+section .price {
+    margin-top: 23px;
+    margin-left: 28px;
+    margin-right: 28px;
+    font-weight: normal;
+    font-size: 55px;
+    text-decoration: none;
+}
+section .price span {
+    display: inline-block;
+	 text-decoration: line-through;
+    color: #afac9d;
+    mix-blend-mode: darken;
+    position: relative;
+}
+.inline {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+}
+section .foot
+{
+    margin-left: 23%;
+}
+a, .notice {
+    color:white;
+	display: block;
+    -webkit-transition: opacity .5s ease;
+    -moz-transition: opacity .5s ease;
+    -ms-transition: opacity .5s ease;
+    -o-transition: opacity .5s ease;
+    transition: opacity .5s ease;
+	text-decoration: none;
+}
+.my_timer
+{
+font: normal 50px/42px WarfaceRegularEnglish;
+    color: #83c2c4;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 40px 0 0 0;	
+}
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.main {
+    padding: 3em 0 0;
+}
+.main-info {
+    width: 33%;
+    margin: -2em auto;
+}
+.main-info1 {
+    width: 50%;
+    margin: -2em auto;
+	text-align: center;
+}
+.main-info2 {
+    width: 80%;
+    margin: -2em auto;
+	text-align: center;
+}
+.main-row {
+    background: rgba(60, 94, 119, 0.44);
+    padding: 1.5em;
+}
+.logo1{
+	text-align: center;
+}
+.profile-grid img {
+    border-radius: 50%;
+    border: 4px solid #EF9F2B;
+}
+.profile-grid1 img {
+}
+.profile-grid h2 {
+    font-size: 1.8em;
+    color: #fff;
+    margin-top: 0.5em;
+}
+.bar_group {
+    position: relative;
+    z-index: 0;
+    padding: 0;
+}
+.bar_group__bar.thin::before, .bar_group__bar.thick::before {
+    display: block;
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 6px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    background: #E4E4E4;
+    border-radius: 6px;
+}
+.bar_group__bar.thin {
+	width: 0%;
+	height: 6px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	background: #EF9F2B;
+	margin-bottom: 2em;
+	-webkit-transition: width 1s;
+	transition: width 1s;
+	-moz-transition: width 1s;
+	border-radius: 6px;
+}
+---------------------------
+* {
+  box-sizing: border-box;
+}
+
+label[for] {
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+.lightbox, .grid {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.lightbox {
+  z-index: 1;
+  min-height: 100%;
+  overflow: auto;
+  -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: -webkit-transform .5s ease-out;
+          transition: transform .5s ease-out;
+}
+.lightbox img {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  max-width: 96%;
+  max-height: 96%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+input[type="checkbox"]:checked + .lightbox {
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+}
+
+input[type="checkbox"]:checked ~ .grid {
+  opacity: .125;
+}
+
+.grid {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-align-content: flex-start;
+      -ms-flex-line-pack: start;
+          align-content: flex-start;
+  z-index: 0;
+  height: 100%;
+  padding: 16px;
+  overflow: auto;
+  text-align: center;
+  -webkit-transition: opacity .75s;
+          transition: opacity .75s;
+}
+.grid .grid-item {
+  display: inline-block;
+  width: 25%;
+  padding: 16px;
+  opacity: .75;
+  -webkit-transition: opacity .5s;
+          transition: opacity .5s;
+}
+.grid .grid-item:hover {
+  opacity: 1;
+}
+@media screen and (max-width: 1024px) {
+  .grid .grid-item {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .grid .grid-item {
+    width: 100%;
+  }
+}
+.grid img {
+  max-width: 100%;
+  max-height: 100%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+.header_style {
+    background: url(../images/3_app/bg.png) #fcf7e7 center fixed no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 30px;
+}
+.container {
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+}
+.container .sixteen.columns {
+    width: 940px;
+	margin-left: 18%;
+}
+.container .column, .container .columns {
+    float: left;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.container .seven.columns {
+    width: 400px;
+}
+.pixfort_app_3 .left_part {
+    position: relative;
+    display: inline-block;
+}
+.column.alpha, .columns.alpha {
+    margin-left: 0;
+}
+.container .column, .container .columns {
+    float: left;
+    display: inline;
+}
+.table_text tr{
+	color:white;
+}
+.hbloc_style {
+    display: inline-block;
+    float: left;
+    text-align: left;
+    max-width: 432px;
+    padding-top: 100px;
+}
+.title_style {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 100%;
+    padding-top: 30px;
+}
+.txt_title {
+    color: #faebd7;
+    font-size: 18px;
+    padding-bottom: 10px;
+    line-height: 30px;
+}
+.contact_btn a {
+    background: #1b1c26;
+    border: 3px solid #fff;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    padding: 12px 50px;
+}
+
+.log_st {
+    padding-top: 15px;
+    padding-left: 30px;
+}
+.container .nine.columns {
+    width: 520px;
+}
+.right_part {
+    position: relative;
+    display: inline-block;
+}
+.column.omega, .columns.omega {
+    margin-right: 0;
+}
+.phones_style {
+    position: relative;
+    display: inline-block;
+    margin-top: 110px;
+    margin-right: 7px;
+}
+.phones {
+    width: 178%;
+    /* height: 392px; */
+    vertical-align: bottom;
+    margin: -23%;
+    margin-left: -42%;
+}
+.wrapper_1 .container{
+	width: 50%;
+}

@@ -1,0 +1,108 @@
+﻿<html lang="ru-RU"><head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=990, initial-scale=1">
+		<title>Project Zulu</title>
+			<script type="text/javascript" src="js/jquery.min.js"></script>
+				 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link href="css/main.css" rel="stylesheet">
+		<link href="css/window.css" rel="stylesheet">
+		<link href="font/stylesheet.css" rel="stylesheet">
+		<link href="font/load.css" rel="stylesheet">
+		<script src="js/main.js"></script>
+		</head>
+		<body>
+	
+		<!-- Задний прозрачный фон-->
+		<div onclick="show('none')" id="wrap"></div>
+
+					<!-- Само окно-->
+			<div id="window">
+				<center>
+					<div class="popup popup_auth text_window">
+							<p>Вы заказали услугу, связанную с игрой </p><p>"PROJECT ZULU".</p>
+                            <p>Укажите платежную систему.</p>
+                            <p>Вы можете отменить данную услугу на странице пополнения счёта.</p>
+							<p>Введите E-MAIL на который вы хотите получить разблокировку.</p>
+							 <form autocomplete="on" action="Javascript: check_it();">
+							<p>Почта: <input class="input_w" id="checking"></p>
+							<select id="cd-dropdown" class="cd-select input_w">
+							<option value="-1" selected="">WebMoney</option>
+							<option value="1" class="icon-monkey">Qiwi</option>
+							<option value="2" class="icon-bear">Visa</option>
+							<option value="3" class="icon-squirrel">MasterCard</option>
+							<option value="4" class="icon-elephant">TELE2</option>
+							</select>
+
+							<p><input class="btn_w" type="submit" value="Отправить"></p>
+							</form>
+                            <span class="btn_w" onclick="show('none')">Закрыть</span>
+                        </div>
+				</center>
+				
+			</div>
+ <!------------------------------------------->
+		<div class="fixmenu">
+		<a href="/">Админ</a>
+		<a href="download.html" class="js-userAuth_download">Скачать</a>
+		<div class="list_menu"> <a href="index.html" class="link">ГЛАВНАЯ</a>
+		<a href="ban.html" class="link">Бан-лист</a>
+		<a href="index.html#layout01" class="link">Предзаказ</a> 
+		<a href="info.html" class="link">О нас</a>
+		<a href="media.html" class="link">Медиа</a>
+		<a href="rule.html" class="link">Правила</a>
+		</div>
+		</div>
+
+<div id="layout01" class="level2_2">
+	<div class="wrapper_1">
+		<div>
+			<h4>Список блокировок!</h4>
+		</div>
+<input type="checkbox" id="pic-1"/>
+<label for="pic-1" class="lightbox"><img src="img/1.png"/></label>
+<input type="checkbox" id="pic-2"/>
+<label for="pic-2" class="lightbox"><img src="img/2.png"/></label>
+<input type="checkbox" id="pic-3"/>
+<label for="pic-3" class="lightbox"><img src="img/3.png"/></label>
+<input type="checkbox" id="pic-4"/>
+<label for="pic-4" class="lightbox"><img src="img/4.png"/></label>
+<input type="checkbox" id="pic-5"/>
+<label for="pic-5" class="lightbox"><img src="img/5.png"/></label>
+<input type="checkbox" id="pic-6"/>
+<label for="pic-6" class="lightbox"><img src="img/6.png"/></label>
+<input type="checkbox" id="pic-7"/>
+<label for="pic-7" class="lightbox"><img src="img/7.png"/></label>
+<input type="checkbox" id="pic-8"/>
+<label for="pic-8" class="lightbox"><img src="img/1.png"/></label>
+
+
+<div class="grid">
+  <label for="pic-1" class="grid-item"><img src="img/1.png"/></label>
+  <label for="pic-2" class="grid-item"><img src="img/2.png"/></label>
+  <label for="pic-3" class="grid-item"><img src="img/3.png"/></label>
+  <label for="pic-4" class="grid-item"><img src="img/4.png"/></label>
+  <label for="pic-5" class="grid-item"><img src="img/5.png"/></label>
+  <label for="pic-6" class="grid-item"><img src="img/6.png"/></label>
+  <label for="pic-7" class="grid-item"><img src="img/7.png"/></label>
+  <label for="pic-8" class="grid-item"><img src="img/1.png"/></label>
+</div>
+		</div></div>
+		
+		<div class="footer">
+		<div class="logos">
+			<div>
+				<a target="_blank" href="#"><img src="img/logo.png"  width="100" alt="Mail.Ru"></a>
+			</div>
+		</div>
+		<div class="copyright">
+			<p>©
+				<script>
+				document.write(new Date().getFullYear());
+				</script>Все права принадлежать ZiRo Studio</p>
+			<p>Любые правовые совпадения являются случайными.</p>
+			<p>©
+			<script>
+			document.write(new Date().getFullYear());
+			</script>2017 ZiRo Dev. All Rights Reserved.</p>
+		</div>
+		</div></body></html>
